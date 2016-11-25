@@ -18,3 +18,5 @@ width =200>
 <H3>토끼선택</H3>
 <img src='https://github.com/ccc3132/android_20161118-homework/blob/master/app/src/main/java/com/example/ss/selectmoon/Camera/Screenshot_1480051131.png?raw=true'  width =200>
 <br><bR><br><br><BR>
+완료
+
