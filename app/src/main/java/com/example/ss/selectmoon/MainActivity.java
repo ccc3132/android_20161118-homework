@@ -53,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         layout2.setVisibility(View.GONE);
-
+        iDog.setVisibility(View.GONE);
+        iCat.setVisibility(View.GONE);
+        iRabbit.setVisibility(View.GONE);
         check.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
             public void onCheckedChanged(CompoundButton buttonView,boolean isChecked){
 
@@ -71,17 +73,21 @@ public class MainActivity extends AppCompatActivity {
                 {
                     if(Dog.isChecked())
                     {
-
-                        iDog.setImageResource(R.drawable.dog);
-
+                        iDog.setVisibility(View.VISIBLE);
+                        iRabbit.setVisibility(View.GONE);
+                        iCat.setVisibility(View.GONE);
                     }
                     else if(Cat.isChecked())
                     {
-                        iCat.setImageResource(R.drawable.cat);
+                        iDog.setVisibility(View.GONE);
+                        iRabbit.setVisibility(View.GONE);
+                        iCat.setVisibility(View.VISIBLE);
                     }
                     else if(Rabbit.isChecked())
                     {
-                        iRabbit.setImageResource(R.drawable.rabit);
+                        iDog.setVisibility(View.GONE);
+                        iCat.setVisibility(View.GONE);
+                        iRabbit.setVisibility(View.VISIBLE);
                     }
                 }
             }

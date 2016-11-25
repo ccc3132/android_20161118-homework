@@ -32,7 +32,7 @@
 
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="331dp"
+        android:layout_height="491dp"
         android:id="@+id/layout2"
         android:weightSum="1">
 
@@ -47,8 +47,7 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="231dp"
-            android:layout_weight="0.18"
+            android:layout_height="168dp"
             android:id="@+id/radiogroup">
 
             <RadioButton
@@ -73,20 +72,20 @@
         </RadioGroup>
 
         <ImageView
-            android:layout_width="118dp"
-            android:layout_height="78dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             app:srcCompat="@drawable/dog"
             android:id="@+id/imageView" />
 
         <ImageView
-            android:layout_width="107dp"
-            android:layout_height="103dp"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
             app:srcCompat="@drawable/cat"
             android:id="@+id/imageView2" />
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="68dp"
+            android:layout_width="102dp"
+            android:layout_height="80dp"
             app:srcCompat="@drawable/rabit"
             android:id="@+id/imageView3" />
 
