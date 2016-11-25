@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ss.selectmoon.MainActivity"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="선택을 시작하시겠습니까?"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <CheckBox
+        android:text="시작함"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:duplicateParentState="false" />
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:id="@+id/layout2"
+        android:weightSum="1">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="좋아하는 애완동물은?"
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_weight="0.18"
+            android:id="@+id/radiogroup">
+
+            <RadioButton
+                android:text="강아지"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:id="@+id/Radiodog"
+                android:checked="false" />
+
+            <RadioButton
+                android:text="고양이"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:id="@+id/Radiocat" />
+
+            <RadioButton
+                android:text="토끼"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:id="@+id/Radiorabbit" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="78dp"
+            app:srcCompat="@drawable/dog"
+            android:id="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/cat"
+            android:id="@+id/imageView2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/rabit"
+            android:id="@+id/imageView3" />
+
+    </LinearLayout>
+
+</LinearLayout>
