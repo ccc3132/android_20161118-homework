@@ -4,8 +4,7 @@ width =200>
 <HR>
 <br><bR><br><br><BR>
 <H3>체크하기후</H3>
-<img src='https://github.com/ccc3132/android_20161118
-homework/blob/master/app/src/main/java/com/example/ss/selectmoon/Camera/Screenshot_1480051559.png?raw=true'  width =200>
+<img src='https://github.com/ccc3132/android_20161118-homework/blob/master/app/src/main/java/com/example/ss/selectmoon/Camera/Screenshot_1480051559.png?raw=true'  width =200>
 <br><bR><br><br><BR>
 <Hr>
 <H3>강아지선택</H3>
